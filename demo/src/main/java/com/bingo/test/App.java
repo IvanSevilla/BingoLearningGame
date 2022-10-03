@@ -6,10 +6,11 @@ package com.bingo.test;
  */
 public class App 
 {
-    private static Bombo bombo;
+    private static Tablero tablero;
     public static void main( String[] args )
     {
-       bombo = new Bombo();
-       bombo.run();
+        tablero = new Tablero();
+        tablero.init();
+        tablero.run();
     }
 }
