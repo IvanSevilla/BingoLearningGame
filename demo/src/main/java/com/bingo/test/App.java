@@ -4,11 +4,10 @@ package com.bingo.test;
  * Hello world!
  *
  */
-public class App 
-{
+public class App {
     private static Tablero tablero;
-    public static void main( String[] args )
-    {
+
+    public static void main(String[] args) {
         tablero = new Tablero();
         tablero.init();
         tablero.run();
