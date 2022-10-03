@@ -16,9 +16,9 @@ public class Util {
         boolean valid;
         ExecutorService l = Executors.newFixedThreadPool(1);
         Future<Integer> g;
-        System.out.println("Enter your choice in 15 seconds :");
+        System.out.println("Enter your choice in 5 seconds :");
         g = l.submit(k);
-        done: while (System.currentTimeMillis() - start < 15 * 1000) {
+        done: while (System.currentTimeMillis() - start < 5 * 1000) {
             do {
                 valid = true;
                 if (g.isDone()) {
